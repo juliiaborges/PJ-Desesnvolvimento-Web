@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(37, 37, 37);
+}
+.bold {
+  font-weight: bold;
+  color: white;
+}
+
+.detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+
+  padding: 10%;
+  color: white;
+}
+
+.detalhes img {
+  max-height: 500px;
+}
+
+.detalhes p {
+  margin: 0 auto 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+  .detalhes img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .detalhes img {
+    height: 200px;
+  }
+}
+a{
+  color:  green;
+}
